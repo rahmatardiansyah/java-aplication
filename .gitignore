@@ -1,7 +1,3 @@
 */build/*
 */dist/*
-/1-data-Mahasiswa/nbproject/private/
-/2-booking-hotel/nbproject/private/
-/3-toko-keramik/nbproject/private/
-/kalkulator/nbproject/private/
-/4-kalkulator/nbproject/private/
+*/nbproject/private/*
