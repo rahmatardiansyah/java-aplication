@@ -9,9 +9,15 @@ class Person {
     final String country = "Indonesia";
     
     // Membuat Konstactor
-    Person(String paramName, String paramAddress){
-        name = paramName;
-        address = paramAddress;
+    Person(String name, String address){
+        //name = paramName;
+        //address = paramAddress;
+        
+        // bisa menggunakan keyword this = merepresentasikan object saat ini
+        // this.name mengambil data dari parameter
+        // name mengambil data dari Luar constructor// untuk mengatasi variable shadowing
+         this.name = name;
+         this.address = address; 
     }
     
     // Membuat Konstraktor Overloading
