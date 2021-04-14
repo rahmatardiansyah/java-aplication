@@ -9,7 +9,7 @@ public class ShapeApp {
         Rectangel rectangel = new Rectangel();
         System.out.println(rectangel.getCorner());
         
-        //mengakses 
+        //mengakses super keyword
         System.out.println(rectangel.getParentCorner());
     }
 }
